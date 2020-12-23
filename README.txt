@@ -1,0 +1,1 @@
+The game is in Python3. Run the program and it will start the game immediately. The game is played in the console.
