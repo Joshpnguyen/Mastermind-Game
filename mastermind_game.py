@@ -40,10 +40,8 @@ class MastermindGame:
     def make_solution(self):
         """Randomly generate solution code"""
 
-        while len(self.solution) != 4:
-            num = randint(0, 5)
-            if num not in self.solution:
-                self.solution.append(num)
+        for i in range(4):
+            self.solution.append(randint(0, 5))
 
     def player_turn(self, player_input):
         """Allow player to make their turn"""
